@@ -70,7 +70,7 @@ jobs:
 
 ## License
 
-Copyright 2025 StepSecurity.
 Copyright 2020 The Actions Ecosystem Authors.
+Copyright 2025 StepSecurity.
 
 Action Add Labels is released under the [Apache License 2.0](./LICENSE).
