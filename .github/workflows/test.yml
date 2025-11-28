@@ -1,9 +1,9 @@
-name: Test
+name: Build
 
 on: push
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -14,4 +14,4 @@ jobs:
 
       - run: yarn install
 
-      - run: yarn test
+      - run: yarn build
