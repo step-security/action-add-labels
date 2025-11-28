@@ -1,4 +1,4 @@
-name: Actions Ecosystem Add Labels
+name: Action Add Labels
 description: Add labels to an issue or a pull request.
 author: step-security
 inputs:
