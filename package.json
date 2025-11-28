@@ -1,0 +1,31 @@
+{
+  "name": "action-add-labels",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Add labels to an issue or a pull request",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc && ncc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/action-add-labels.git"
+  },
+  "keywords": [
+    "actions",
+    "github",
+    "labels"
+  ],
+  "author": "step-security",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/ncc": "^0.36.1",
+    "typescript": "^5.3.0"
+  }
+}
